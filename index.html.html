@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="css/Untitled-1.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+        $(function () {
+            $(".ul1 li").click(function () {
+                var index = $(this).index();
+                // console.log(index);
+                var top = $(".content .w").eq($(this).index()).offset().top;
+                // console.log(top);
+               $("html,body").stop().animate({
+                // scrollTop: top
+                scrollTop: top
+               },500)
+        });
+  
+    </script>
+</head>
+
+<body>
+    <div class="content">
+
+        <div class="banner w">
+            <div class="banner-nav">
+                <div class="banner-nav2">
+                    <div class="nav">
+                        <div class="logo">
+                            <h2>GRWTS</h2>
+                        </div>
+                        <div class="nav1">
+                            <ul class="ul1">
+                                <li><a href="#">首页</a></li>
+                                <li><a href="#">关于</a></li>
+                                <li><a href="#">技能</a></li>
+                                <li><a href="#">更多</a></li>
+                                <li><a href="#">联系</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner1">
+                <div class="banner1-1">
+                    <h3><span>The life of</span> a programmer</h3>
+                    <p>Design Is kind of pursuit of the perfect lIfeb <br>
+                        attltude,deslgnIs a kInd of pursult of taste <br>
+                        life concept.
+                    </p>
+                    <ul>
+                        <li class="li1"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main w">
+            <div class="main1">
+                <div class="main1-1">
+                    <div class="main1-1-1">
+                        <ul class="ul1">
+                            <li class="li2"></li>
+                            <li class="li3"></li>
+                        </ul>
+                        <ul class="ul2">
+                            <li class="wd">
+                                <p>我的作品</p>
+                            </li>
+                            <li class="li1"><img src="img/17.jpg" alt="" width="100%"></li>
+                            <li class="li1"><img src="img/19.jpg" alt="" width="120%"></li>
+                            <li class="li1"><img src="img/18.jpg" alt="" width="120%"></li>
+                            <li class="li1"><img src="img/20.jpg" alt="" width="120%"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+      > <!-- total 15 span -->
+                </div>
+            </div>
+            <div class="main2">
+                <a name="guanyu"></a>
+                <div class="main2-1">
+                    <div class="main2-1-1">
+                        <div class="main2-1-2"> <img src="img/2.jpg" alt="" width="100%">
+                            <div class="span1"></div>
+                        </div>
+                        <div class="main2-1-3">
+                            <h3>关于我</h3>
+                            <ul>
+                                <li>姓名：符利 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    性别：男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    年龄：17&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专业：网页美术设计</li>
+                                <li>学校：泸溪第一职业中学</li>
+                                <li>爱好：没那么多高大上的言谈。也没那么多虚假人设的包装、<br><br>
+                                    大胆、真实、用心、善良、有爱的去面对这个世界、不忘初心、<br><br>坚守自己、负重前行”不论走多远都要去时刻警. </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main3">
+                <a name="jineng"></a>
+                <div class="main3-1">
+                    <div class="main3-1-1">
+                        <dl>
+                            <dt>技能</dt>
+                            <dd>Skills</dd>
+                        </dl>
+                        <ul>
+                            <li class="li2"></li>
+                            <li class="li3"></li>
+                        </ul>
+                        <p>DESICN A KINDOF PURSUIT OF <br> THE PERFECT LIFE ATTITUDE</p>
+
+
+                        <div class="main3-1-2">
+                            <div class="main3-1-3">
+                                <div class="main3-1-4"><img src="img/7.jpg" width="100%"></div>
+                                <div class="main3-1-4">60%</div>
+                            </div>
+                            <div class="main3-1-3">
+                                <div class="main3-1-4"><img src="img/6.jpg" width="100%"></div>
+                                <div class="main3-1-4">65%</div>
+                            </div>
+                            <div class="main3-1-3">
+                                <div class="main3-1-4"><img src="img/5.jpg" width="100%"></div>
+                                <div class="main3-1-4">60%</div>
+                            </div>
+                            <div class="main3-1-3">
+                                <div class="main3-1-4"><img src="img/4.jpg" width="100%"></div>
+                                <div class="main3-1-4">80%</div>
+                            </div>
+                            <!-- <div class="main3-1-5">80%</div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main4">
+                <a name="zpzs"></a>
+                <div class="main4-1">
+                    <div class="main4-1-1">
+                        <dl>
+                            <dt>作品展示</dt>
+                            <dd>ON DISPLAY</dd>
+                        </dl>
+                        <ul class="ul1">
+                            <li class="li2"></li>
+                            <li class="li3"></li>
+                        </ul>
+                        <p>DESIGNKIND OF PURSUIT OF THE PURFECT LIFE ATTITLOL<br>
+                            DESION A KIND OF PUSUIT OF TASTE LIFE CONCEO</p>
+
+                        <ul class="ul2">
+                            <li><a href="#" class="wy">网页设计</a></li>
+                            <li><a href="#">交互设计</a></li>
+                            <li><a href="#">网页作品</a></li>
+                            <li><a href="#">素描作品</a></li>
+                            <li><a href="#">更多作品</a></li>
+
+                        </ul>
+                        <ul class="ul3">
+                            <li><img src="img/12.jpg" alt="" width="100%"></li>
+                            <li><img src="img/13.jpg" alt="" width="100%"></li>
+                            <li><img src="img/14.jpg" alt="" width="100%"></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer w">
+            <a name="lianxi"></a>
+            <div class="footer1">
+                <div class="footer1-1">
+                    <dl>
+                        <dt>联系我</dt>
+                        <dd>CONTACT MNE</dd>
+                    </dl>
+                    <ul class="ul1">
+                        <li class="li2"></li>
+                        <li class="li3"></li>
+                    </ul>
+                    <p>OESICN A KINO OF PURSUIT OF THE PERFECT LIFE ATTITUOE<br>
+                        OESIGNKIND 0F PURSUIT oF TASTE LIFE CONCEO</p>
+                </div>
+            </div>
+            <div class="footer2">
+                <div class="footer2-1">
+                    <div class="footer2-1-1">
+                        <ul>
+                            <li><a href="#">QQ： 2465134968</a></li>
+                            <li><a href="#">微信：142736538jk</a></li>
+                            <li><a href="#">邮箱：2465134968@qq.com</a></li>
+                            <li><a href="#">微博：2445632174</a></li>
+                            <li><a href="#">地址：湖南省泸溪县</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer2-1-1">
+                        <section>
+                            <input type="text" class="input1" placeholder="QQ">
+                            <input type="text" class="input1" placeholder="微信">
+                        </section>
+                        <input type="text" class="input2" placeholder="留言">
+                        <span><a href="#">提 交</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
